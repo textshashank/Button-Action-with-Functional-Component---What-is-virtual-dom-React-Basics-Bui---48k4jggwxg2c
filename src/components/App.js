@@ -11,7 +11,7 @@ function App() {
     <div id="main">
       // Do not alter the main div
     </div>
-    <p id="para" className={flag ? "sho" : "hide"}>Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>
+    {/* <p id="para" className={flag ? "sho" : "hide"}>Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p> */}
     <button id="click" onClick={change}>show</button>
     </>
   );
